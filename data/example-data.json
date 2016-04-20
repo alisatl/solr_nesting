@@ -1,0 +1,148 @@
+{
+    "blog-posts":[
+        {
+            "date":"2015-04-10T9:00:00Z",
+            "author":"Alice",
+            "title":{
+                "text":"My Post #1: About Solr and Other Search Engines",
+                "keywords":[
+                    {
+                        "text":"Solr",
+                        "type":"search engine"
+                    },
+                    {
+                        "text":"Search Engine",
+                        "type":"entity"
+                    }
+                ]
+            },
+            "body":{
+                "text":"Here I write how useful Solr is...",
+                "keywords":[
+                    {
+                        "text":"Solr",
+                        "type":"search engine"
+                    }
+                ]
+            },
+            "comments":[
+                {
+                    "date":"2015-04-10T11:30:00Z",
+                    "author":"Bob",
+                    "text":"Great post about Solr",
+                    "keywords":[
+                        {
+                            "text":"Solr",
+                            "type":"search engine"
+                        }
+                    ],
+                    "sentiment":"positive",
+                    "replies":[
+                        {
+                            "date":"2015-04-10T12:00:00Z",
+                            "author":"Dave",
+                            "text":"Yeah, I like Solr too",
+                            "keywords":[
+                                {
+                                    "text":"Solr",
+                                    "type":"search engine"
+                                }
+                            ],
+                            "sentiment":"positive"
+                        },
+                        {
+                            "date":"2015-04-12T05:00:00Z",
+                            "author":"Sri",
+                            "text":"I disagree, I prefer Elasticsearch",
+                            "keywords":[
+                                {
+                                    "text":"Elasticsearch",
+                                    "type":"search engine"
+                                }
+                            ],
+                            "sentiment":"negative"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "date":"2015-11-10T9:00:00Z",
+            "author":"Aadit",
+            "title":{
+                "text":"About useful features of Solr",
+                "keywords":[
+                    {
+                        "text":"Solr",
+                        "type":"search engine"
+                    },
+                    {
+                        "text":"feature",
+                        "type":"entity"
+                    }
+                ]
+            },
+            "body":{
+                "text":"Here I also write how useful Solr is...",
+                "keywords":[
+                    {
+                        "text":"Solr",
+                        "type":"search engine"
+                    }
+                ]
+            },
+            "comments":[
+                {
+                    "date":"2016-04-10T11:30:00Z",
+                    "author":"Bob",
+                    "text":"You forgot that useful Solr's feature!",
+                    "keywords":[
+                        {
+                            "text":"Solr",
+                            "type":"search engine"
+                        },
+                        {
+                            "text":"feature",
+                            "type":"entity"
+                        }
+                    ],
+                    "sentiment":"negative",
+                    "replies":[
+                        {
+                            "date":"2016-04-10T12:00:00Z",
+                            "author":"Dave",
+                            "text":"But it only appeared in Solr 5.5, after the post was written",
+                            "keywords":[
+                                {
+                                    "text":"Solr",
+                                    "type":"search engine"
+                                },
+                                {
+                                    "text":"Solr 5.5",
+                                    "type":"search engine"
+                                }
+                            ],
+                            "sentiment":"neutral"
+                        }
+                    ]
+                },
+                {
+                    "date":"2015-12-12T05:00:00Z",
+                    "author":"Sri",
+                    "text":"Elasticsearch had it earlier than Solr",
+                    "keywords":[
+                        {
+                            "text":"Elasticsearch",
+                            "type":"search engine"
+                        },
+                        {
+                            "text":"Solr",
+                            "type":"search engine"
+                        }
+                    ],
+                    "sentiment":"negative"
+                }
+            ]
+        }
+    ]
+}
