@@ -3,6 +3,8 @@ https://medium.com/@alisazhila/solr-s-nesting-on-solr-s-capabilities-to-handle-d
 
 ### Script usage:
 
-$python ./scripts/convert_data2solrjson.py -i ./data/example-data.json -o ./data/example-data-solr.json
+```{bash}
+$ python ./scripts/convert_data2solrjson.py -i ./data/example-data.json -o ./data/example-data-solr.json
 
-$python ./scripts/convert_data2solrjson_for_faceting.py -i ./data/example-data.json -o ./data/example-data-solr-for-faceting.json
+$ python ./scripts/convert_data2solrjson_for_faceting.py -i ./data/example-data.json -o ./data/example-data-solr-for-faceting.json
+```
